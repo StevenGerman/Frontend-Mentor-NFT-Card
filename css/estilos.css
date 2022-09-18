@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.contenedor{
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 334px;
+    height: 550px;
+    border-radius: 12px;
+    box-shadow: 0px 15px 12px 12px hsla(240, 97%, 4%, 0.196);
+}
+
+.contendedor-imagen{
+    /*background-color: aliceblue;*/
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+        
+}
+.imagen-nft{
+    width: 100%;
+    height: 90%;
+    padding: 0px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.efecto-hover{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px ;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    
+}
+.icono-view{
+    position: relative;
+    width: 40px;
+    color: hsl(0, 0%, 100%, 1);
+    opacity: 1;
+}
+.efecto-hover:hover {
+    opacity: 0.69;
+    cursor: pointer;
+}
+.efecto-hover:hover .icono-view{
+    opacity: 1;
+}
+.icono-view:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+.texto-creador-nombre:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.nombre-nft:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.descripcion{
+    /*background-color: beige;*/
+    font-family: "Outfit",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    
+}
+.nombre-nft{
+    font-weight: 600;
+    font-size: 24px;
+    color:hsl(0, 0%, 100%);
+}
+.descripcion-nft{
+    margin-top: 5%;
+    font-weight: 200;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+.precio-dias{
+    /*background-color: antiquewhite;*/
+    display: flex;
+    width: 300px;   
+    margin-top: 5%;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    height: 8%;
+
+}
+.precio{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-between;
+}
+.precio-imagen{
+    object-fit: contain;
+    width: 12px;
+    padding-left: 2px;
+    height: 30px;
+}
+.precio-texto{
+    font-family: "Outfit",sans-serif;
+    font-weight: 400;
+    font-size: 10;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+    color: hsl(178, 100%, 50%);
+}
+.dias-lanzamiento{
+    /*background-color: bisque;*/
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.dias-lanzamiento__reloj{
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+
+}
+.dias{
+    font-family: "Outfit",sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 2px;
+    color: hsl(215, 51%, 70%);
+}
+
+.creador{
+    /*background:hsl(0, 0%, 100%);*/
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    width: 300px;
+    justify-content: flex-start;
+}
+.imagen-creador{
+    width: 30px;
+    height: 30px;
+    border: 2px solid  hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.texto-creador{
+    font-family: "Outfit",sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 2px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+.texto-creador-nombre{
+    font-weight: 400;
+    font-family: "Outfit",sans-serif;
+    font-size: 16px;
+    padding: 2px;
+    color: hsl(0, 0%, 100%);
+}
